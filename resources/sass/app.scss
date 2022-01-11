@@ -1,1 +1,43 @@
-//
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie{
+    padding: 1rem;
+    border: black 3px solid;
+    width: 20%;
+    margin-bottom: 3rem;
+    background-color: #d4e6b5;
+    color: 28190e;
+    .badge {          
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: #ffdf64;
+        color: #877b66;
+        border-radius: 50%;
+        border: 1px solid #877b66;
+        height: 32px;
+        width: 32px;
+    }
+    .title{
+        text-align: center;
+    }
+    .nationality{
+        text-transform: capitalize;
+    }
+    .description{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
